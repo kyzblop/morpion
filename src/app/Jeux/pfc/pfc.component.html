@@ -1,0 +1,20 @@
+<div class="container text-center">
+    <h3>Jouez à Pierre-Feuille-Ciseaux !</h3>
+
+    <button (click)="game('p')">Pierre</button>
+    <button (click)="game('f')">Feuille</button>
+    <button (click)="game('c')">Ciseaux</button>
+
+    <h5>Et c'est une ... {{resultat}}</h5>
+
+    <button (click)="stat()">stat</button>
+
+    <p *ngIf="afficherStat == true">
+        Vous avez gagné {{nbVic}} manches
+        Vous avez perdu {{nbDef}} manches
+        Vous avez fait {{nbEga}} égalités
+    </p>
+</div>
+
+
+
