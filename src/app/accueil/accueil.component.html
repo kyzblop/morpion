@@ -5,19 +5,19 @@
     </h1>
 </div>
 
-<div class="container">
-    <h1>Règle du Morpion</h1>
-    <p>Il faut faire une ligne</p>
-    <div class="text-center">
-        <button (click)="redirectMorp()">Jouer</button>
+<div class="container container-card">
+    <div class="container text-center card">
+        <h5>Règle du Morpion</h5>
+        <p>Il faut faire une ligne</p>
+        <button class="card-button" (click)="redirectMorp()">Jouer</button>
+    </div>
+    <div class="container text-center card">
+        <h5 class="card-title">Règle du Pierre-Feuille-Ciseaux</h5>
+        <p class="card-content">Il faut gagner</p>
+        <button class="card-button" (click)="redirectPfc()">Jouer</button>
     </div>
     
-    <h1>Règle du Pierre-Feuille-Ciseaux</h1>
-    <p>Il faut gagner</p>
-    <div class="text-center">
-        <button (click)="redirectPfc()">Jouer</button>
-    </div>
-
+    
 </div>
 
 

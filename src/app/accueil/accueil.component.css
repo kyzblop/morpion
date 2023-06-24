@@ -1,0 +1,27 @@
+.container-card{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: start;
+    justify-content: start;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    flex: start;
+    width: 30%;
+    height: 20em;
+}
+
+.card-title{
+    height: 15%;
+}
+
+.card-content{
+    flex-grow :1;
+}
+
+.card-button{
+    height: 15%;
+}
