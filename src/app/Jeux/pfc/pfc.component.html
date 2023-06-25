@@ -1,9 +1,11 @@
 <div class="container text-center">
-    <h3>Jouez à Pierre-Feuille-Ciseaux !</h3>
+    <h3 class="pfc-title">Jouez à Pierre-Feuille-Ciseaux !</h3>
 
-    <button (click)="game('p')">Pierre</button>
-    <button (click)="game('f')">Feuille</button>
-    <button (click)="game('c')">Ciseaux</button>
+    <div class="pfc-button-container">
+        <input class="pfc-button" type="image" src="../../../assets/image/PFC - Pierre.png" alt="PFC Pierre" (click)="game('p')">
+        <input class="pfc-button" type="image" src="../../../assets/image/PFC - Feuille.png" alt="PFC Feuille" (click)="game('f')">
+        <input class="pfc-button" type="image" src="../../../assets/image/PFC - Ciseaux.png" alt="PFC Ciseaux" (click)="game('c')">
+    </div>
 
     <h5>Et c'est une ... {{resultat}}</h5>
 

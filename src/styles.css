@@ -1,1 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+.body{
+    background-image: url("../src/assets/image/2582121-noir-abstract-vector-fond-casino-avec-cartes-a-jouer-signes-symboles-gris-sur-fond-noir-casino-symboles-vectoriel.jpg");
+    background-size: cover;
+}

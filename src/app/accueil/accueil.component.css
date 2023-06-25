@@ -1,27 +1,34 @@
+
 .container-card{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    align-content: stretch;
-    align-items: start;
-    justify-content: start;
+    
 }
 
 .card{
     display: flex;
-    flex-direction: column;
-    flex: start;
-    width: 30%;
     height: 20em;
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin: 2%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    background-image: url("../../assets/image/fond-table-poker-couleur-verte-fond-combinaisons-cartes-fond-premium-table-poker_511290-24.avif");
 }
 
 .card-title{
-    height: 15%;
+    height: 25%;
+    margin-top: 5px;
 }
 
 .card-content{
-    flex-grow :1;
+    height: 50%;
+    
 }
 
 .card-button{
-    height: 15%;
+    width: 50%; 
+    align-self: center;
 }

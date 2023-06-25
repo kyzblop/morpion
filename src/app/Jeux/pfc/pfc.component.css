@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.pfc-title{
+    margin-bottom: 20px;
+}
+
+.pfc-button{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    
+    flex-grow: 1;
+    flex: 0 0 200px;
+
+    border-radius: 100%;
+    
+}
+
+.pfc-button-container{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-basis: 500px;
+    flex-wrap: wrap;
+
+    justify-content: center;
+}
